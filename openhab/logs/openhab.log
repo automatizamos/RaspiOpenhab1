@@ -1,0 +1,66 @@
+2015-06-17 14:21:13.084 [WARN ] [o.config.core.ConfigDispatcher] - Main openHAB configuration file 'configurations/openhab.cfg' does not exist.
+2015-06-17 14:21:13.090 [INFO ] [.o.core.internal.CoreActivator] - openHAB runtime has been started (v1.6.2).
+2015-06-17 14:21:14.262 [INFO ] [o.o.i.s.i.DiscoveryServiceImpl] - mDNS service has been started
+2015-06-17 14:21:14.311 [INFO ] [o.o.i.s.i.DiscoveryServiceImpl] - Service Discovery initialization completed.
+2015-06-17 14:21:16.351 [INFO ] [penhab.io.rest.RESTApplication] - Started REST API at /rest
+2015-06-17 14:21:23.768 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'db4o.persist'
+2015-06-17 14:21:23.868 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'logging.persist'
+2015-06-17 14:21:23.877 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'rrd4j.persist'
+2015-06-17 14:21:24.785 [INFO ] [.o.u.w.i.servlet.WebAppServlet] - Started Classic UI at /openhab.app
+2015-06-17 14:21:28.181 [INFO ] [.o.io.habmin.HABminApplication] - Started HABmin REST API at /services/habmin
+2015-06-17 14:21:33.680 [INFO ] [.service.AbstractActiveService] - HTTP Refresh Service has been started
+2015-06-17 14:21:33.780 [INFO ] [.z.internal.ZWaveActiveBinding] - Update config, port = /dev/cu.SLAB_USBtoUART
+2015-06-17 14:21:33.780 [INFO ] [.z.internal.ZWaveActiveBinding] - Update config, healtime = 2
+2015-06-17 14:21:33.782 [INFO ] [.service.AbstractActiveService] - ZWave Refresh Service has been started
+2015-06-17 14:21:33.809 [INFO ] [b.z.i.protocol.ZWaveController] - Starting Z-Wave controller
+2015-06-17 14:21:33.809 [INFO ] [b.z.i.protocol.ZWaveController] - Z-Wave timeout is set to 5000ms. Soft reset is false.
+2015-06-17 14:21:33.809 [INFO ] [b.z.i.protocol.ZWaveController] - Connecting to serial port /dev/cu.SLAB_USBtoUART
+2015-06-17 14:21:33.844 [INFO ] [b.z.i.protocol.ZWaveController] - Serial port is initialized
+2015-06-17 14:21:33.893 [INFO ] [.service.AbstractActiveService] - NTP Refresh Service has been started
+2015-06-17 14:21:36.946 [INFO ] [rialApiGetInitDataMessageClass] - NODE 1: Node found
+2015-06-17 14:21:36.947 [INFO ] [rialApiGetInitDataMessageClass] - NODE 3: Node found
+2015-06-17 14:21:36.947 [INFO ] [rialApiGetInitDataMessageClass] - NODE 5: Node found
+2015-06-17 14:21:36.947 [INFO ] [rialApiGetInitDataMessageClass] - NODE 6: Node found
+2015-06-17 14:21:36.947 [INFO ] [rialApiGetInitDataMessageClass] - NODE 7: Node found
+2015-06-17 14:21:36.948 [INFO ] [rialApiGetInitDataMessageClass] - ZWave Controller using Controller API
+2015-06-17 14:21:36.948 [INFO ] [rialApiGetInitDataMessageClass] - ZWave Controller is Primary Controller
+2015-06-17 14:21:36.948 [INFO ] [rialApiGetInitDataMessageClass] - ------------Number of Nodes Found Registered to ZWave Controller------------
+2015-06-17 14:21:36.948 [INFO ] [rialApiGetInitDataMessageClass] - # Nodes = 5
+2015-06-17 14:21:36.949 [INFO ] [rialApiGetInitDataMessageClass] - ----------------------------------------------------------------------------
+2015-06-17 14:21:37.152 [WARN ] [.o.b.z.i.p.c.ZWaveCommandClass] - NODE 3: Unsupported command class SWITCH_ALL
+2015-06-17 14:21:37.156 [WARN ] [.o.b.z.i.p.c.ZWaveCommandClass] - NODE 5: Unsupported command class SWITCH_ALL
+2015-06-17 14:21:37.164 [WARN ] [.o.b.z.i.p.c.ZWaveCommandClass] - NODE 7: Unsupported command class SWITCH_ALL
+2015-06-17 14:21:37.233 [WARN ] [i.p.s.IsFailedNodeMessageClass] - NODE 3: Is currently marked as failed by the controller!
+2015-06-17 14:21:37.237 [WARN ] [i.p.s.IsFailedNodeMessageClass] - NODE 5: Is currently marked as failed by the controller!
+2015-06-17 14:21:37.239 [WARN ] [i.p.s.IsFailedNodeMessageClass] - NODE 6: Is currently marked as failed by the controller!
+2015-06-17 14:21:37.242 [WARN ] [i.p.s.IsFailedNodeMessageClass] - NODE 7: Is currently marked as failed by the controller!
+2015-06-17 14:21:38.563 [ERROR] [b.z.i.p.s.SendDataMessageClass] - NODE 3: Node is DEAD. Dropping message.
+2015-06-17 14:21:39.320 [ERROR] [b.z.i.p.s.SendDataMessageClass] - NODE 5: Node is DEAD. Dropping message.
+2015-06-17 14:21:40.156 [ERROR] [b.z.i.p.s.SendDataMessageClass] - NODE 6: Node is DEAD. Dropping message.
+2015-06-17 14:21:40.990 [ERROR] [b.z.i.p.s.SendDataMessageClass] - NODE 7: Node is DEAD. Dropping message.
+2015-06-17 14:21:43.657 [ERROR] [b.z.i.p.s.SendDataMessageClass] - NODE 3: Node is DEAD. Dropping message.
+2015-06-17 14:21:44.413 [ERROR] [b.z.i.p.s.SendDataMessageClass] - NODE 5: Node is DEAD. Dropping message.
+2015-06-17 14:21:45.205 [ERROR] [b.z.i.p.s.SendDataMessageClass] - NODE 7: Node is DEAD. Dropping message.
+2015-06-17 14:21:46.123 [ERROR] [b.z.i.p.s.SendDataMessageClass] - NODE 6: Node is DEAD. Dropping message.
+2015-06-17 14:21:51.917 [ERROR] [i.h.s.p.PersistenceModelHelper] - Can't open model file 'exec'
+2015-06-17 14:21:52.976 [ERROR] [b.z.i.p.s.SendDataMessageClass] - NODE 5: Node is DEAD. Dropping message.
+2015-06-17 14:21:54.374 [ERROR] [b.z.i.p.s.SendDataMessageClass] - NODE 3: Node is DEAD. Dropping message.
+2015-06-17 14:21:55.108 [ERROR] [b.z.i.p.s.SendDataMessageClass] - NODE 7: Node is DEAD. Dropping message.
+2015-06-17 14:21:56.026 [ERROR] [b.z.i.p.s.SendDataMessageClass] - NODE 6: Node is DEAD. Dropping message.
+2015-06-17 14:22:13.621 [ERROR] [b.z.i.p.s.SendDataMessageClass] - NODE 3: Node is DEAD. Dropping message.
+2015-06-17 14:22:14.340 [ERROR] [b.z.i.p.s.SendDataMessageClass] - NODE 5: Node is DEAD. Dropping message.
+2015-06-17 14:22:15.193 [ERROR] [b.z.i.p.s.SendDataMessageClass] - NODE 7: Node is DEAD. Dropping message.
+2015-06-17 14:22:16.069 [ERROR] [b.z.i.p.s.SendDataMessageClass] - NODE 6: Node is DEAD. Dropping message.
+2015-06-17 14:22:53.669 [ERROR] [b.z.i.p.s.SendDataMessageClass] - NODE 3: Node is DEAD. Dropping message.
+2015-06-17 14:22:54.425 [ERROR] [b.z.i.p.s.SendDataMessageClass] - NODE 5: Node is DEAD. Dropping message.
+2015-06-17 14:22:55.257 [ERROR] [b.z.i.p.s.SendDataMessageClass] - NODE 6: Node is DEAD. Dropping message.
+2015-06-17 14:22:56.168 [ERROR] [b.z.i.p.s.SendDataMessageClass] - NODE 7: Node is DEAD. Dropping message.
+2015-06-17 14:23:10.170 [ERROR] [b.z.i.p.s.SendDataMessageClass] - NODE 3: Node is DEAD. Dropping message.
+2015-06-17 14:24:13.647 [ERROR] [b.z.i.p.s.SendDataMessageClass] - NODE 3: Node is DEAD. Dropping message.
+2015-06-17 14:24:14.303 [ERROR] [b.z.i.p.s.SendDataMessageClass] - NODE 5: Node is DEAD. Dropping message.
+2015-06-17 14:24:15.131 [ERROR] [b.z.i.p.s.SendDataMessageClass] - NODE 7: Node is DEAD. Dropping message.
+2015-06-17 14:24:15.990 [ERROR] [b.z.i.p.s.SendDataMessageClass] - NODE 6: Node is DEAD. Dropping message.
+2015-06-17 14:24:40.295 [ERROR] [b.z.i.p.s.SendDataMessageClass] - NODE 3: Node is DEAD. Dropping message.
+2015-06-17 14:25:33.558 [INFO ] [penhab.io.rest.RESTApplication] - Stopped REST API
+2015-06-17 14:25:37.587 [INFO ] [.o.u.w.i.servlet.WebAppServlet] - Stopped Classic UI
+2015-06-17 14:25:37.599 [INFO ] [.o.io.habmin.HABminApplication] - Stopped HABmin REST API
