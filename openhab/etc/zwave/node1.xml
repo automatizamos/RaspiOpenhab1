@@ -4,23 +4,16 @@
     <genericDeviceClass>STATIC_CONTOLLER</genericDeviceClass>
     <specificDeviceClass>PC_CONTROLLER</specificDeviceClass>
   </deviceClass>
-  <homeId>0x1851647</homeId>
+  <homeId>0xdac6bb94</homeId>
   <nodeId>1</nodeId>
-  <version>3</version>
+  <version>4</version>
   <manufacturer>0x86</manufacturer>
-  <deviceId>0x1</deviceId>
-  <deviceType>0x2</deviceType>
+  <deviceId>0x5a</deviceId>
+  <deviceType>0x101</deviceType>
   <listening>true</listening>
   <frequentlyListening>false</frequentlyListening>
   <routing>false</routing>
   <supportedCommandClasses>
-    <entry>
-      <commandClass>NO_OPERATION</commandClass>
-      <noOperationCommandClass>
-        <version>0</version>
-        <instances>0</instances>
-      </noOperationCommandClass>
-    </entry>
     <entry>
       <commandClass>BASIC</commandClass>
       <basicCommandClass>
@@ -29,11 +22,14 @@
         <isGetSupported>true</isGetSupported>
       </basicCommandClass>
     </entry>
+    <entry>
+      <commandClass>NO_OPERATION</commandClass>
+      <noOperationCommandClass>
+        <version>0</version>
+        <instances>0</instances>
+      </noOperationCommandClass>
+    </entry>
   </supportedCommandClasses>
-  <nodeNeighbors>
-    <int>5</int>
-    <int>6</int>
-    <int>7</int>
-  </nodeNeighbors>
+  <nodeNeighbors/>
   <applicationUpdateReceived>false</applicationUpdateReceived>
 </node>
